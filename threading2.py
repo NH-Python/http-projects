@@ -38,4 +38,5 @@ def submit_post():
         new_thread.start()
 
     #continue processing new post stuff
-    #eventually returns 301 to new post link
+    
+    return redirect(new_post.permalink)
