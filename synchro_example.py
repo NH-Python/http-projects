@@ -49,5 +49,5 @@ def do_posts():
 
 
 if __name__ == "__main__":
-    # do_gets()
-    do_posts()
+    do_gets()
+    # do_posts()

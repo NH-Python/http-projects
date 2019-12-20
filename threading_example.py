@@ -17,3 +17,6 @@ def test_the_server(n=100):
     for i in range(n):
         new_thread = threading.Thread(target=make_request)
         new_thread.start()
+
+if __name__ == "__main__":
+    test_the_server()
